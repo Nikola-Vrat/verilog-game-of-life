@@ -1,3 +1,17 @@
-# verilog-game-of-life
-«Игра „Жизнь“ Конвея на FPGA (Verilog) с видеовыводом через VGA и управлением по UART». (Conway's Game of Life on FPGA (Verilog) with VGA video output and UART control.)
+<img width="800" height="82" alt="cjcjcjj drawio" src="https://github.com/user-attachments/assets/af740dad-d044-46f7-89b5-550cf43ac777" /># verilog-game-of-life
+Игра „Жизнь“ Конвея на FPGA (Verilog) с видеовыводом через VGA и управлением по UART.(Conway's Game of Life on FPGA (Verilog) with VGA video output and UART control)
+
+Проект представляет собой реализацию игры "Жизнь" с возможностью загрузки начального состояния поля с помощью UART и отображением текущего состояния поля  на VGA-дисплее
+
+## О проекте
+
+Game of Life — клеточный автомат, состоящий из набора клеток, каждая из которых может находиться в одном из двух состояний:
+
+### живая
+
+### мёртвая
+
+Состояние каждой клетки в следующем поколении определяется состояниями её восьми соседей.
+
+В данном проекте игровое поле имеет размер 10×10 клеток.
 
