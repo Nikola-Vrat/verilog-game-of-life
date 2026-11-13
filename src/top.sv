@@ -69,7 +69,7 @@ module top (
     ) reset_button_controller_inst (
         .clk      (clk_in),      
         .button_n (RESET_BUTTON), 
-        .rst      (rst || !pll_locked)       
+        .rst      (rst)       
     );
 
     blink blink_inst (
@@ -158,7 +158,7 @@ module top (
         .clk                  (clk_pll),
         .data_from_rx         (rx_data_out),
         .rx_done              (rx_done),
-        .error_flag           (error_flag),
+        .error_flag           (1'b0),
         .write_data_to_matrix (write_data_to_matrix),
         .all_data_transmitted (all_data_transmitted)
     );

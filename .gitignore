@@ -1,0 +1,12 @@
+db/
+incremental_db/
+output_files/
+*.qws
+*.rpt
+*.sof
+*.pof
+*.smsg
+*.qpg
+greybox_tmp/
+*.bak
+*.qws
